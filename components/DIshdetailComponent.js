@@ -12,7 +12,7 @@ function RenderDish(props) {
             return(
                 <Card
                 featuredTitle={dish.name}
-                image={require('../assets/snack-icon.png')}>
+                image={require('./images/alberto.png')}>
                     <Text style={{margin: 10}}>
                         {dish.description}
                     </Text>
